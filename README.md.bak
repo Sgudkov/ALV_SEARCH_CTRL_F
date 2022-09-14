@@ -9,7 +9,7 @@
 ![alt text](https://github.com/Sgudkov/ALV_SEARCH_CTRL_F/blob/main/GUI_STATUS.jpg)
 
 
-2. Use down below code snippet in user-command event(PAI). 
+2. Use down below code snippet in user-command event. 
 
 ```abap  
       CALL METHOD cl_gui_control=>get_focus
