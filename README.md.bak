@@ -1,7 +1,7 @@
 # Ctrl+F to search data on ALV
 ## Usage purpose of hotkey Ctrl+F to search data in ALV for two ALV
 
-
+- [x] Notice that you should choose ALV by clicking on it to define usage container before you going to use Ctrl+F 
 
 1. Set function code for button "Search" like in figure below 
 
@@ -9,6 +9,9 @@
 
 
 2. Use down below code snippet in user-command event(PAI). 
+
+> All grids should be define like TYPE REF lcl_alv_grid. 
+> Source code [here](https://github.com/Sgudkov/ALV_SEARCH_CTRL_F/blob/main/Search.abap).
 
 ```abap  
       CALL METHOD cl_gui_control=>get_focus

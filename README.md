@@ -10,6 +10,9 @@
 
 2. Use down below code snippet in user-command event(PAI). 
 
+> All grids should be define like "TYPE REF lcl_alv_grid". 
+> Source code [here](https://github.com/Sgudkov/ALV_SEARCH_CTRL_F/blob/main/Search.abap).
+
 ```abap  
       CALL METHOD cl_gui_control=>get_focus
         IMPORTING
