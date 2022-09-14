@@ -1,11 +1,10 @@
 # Ctrl+F to search data on ALV
-## Usage purpose of hotkey Ctrl+F to search data in ALV
+## Usage purpose of hotkey Ctrl+F to search data in ALV for two ALV
 
-
-### Usage purpose for two ALV bootom and top.
-
+- [x] Notice that you should choose ALV by clicking on it to define usage container before you going to use Ctrl+F 
 
 1. Set function code for button "Search" like in figure below 
+
 ![alt text](https://github.com/Sgudkov/ALV_SEARCH_CTRL_F/blob/main/GUI_STATUS.jpg)
 
 
